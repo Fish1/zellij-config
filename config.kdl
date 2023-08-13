@@ -14,35 +14,48 @@
 // Run `zellij setup --check` for troubleshooting and inspecting
 // current config locations and features that are enabled.
 
-theme "gruvbox-dark"
+theme "nightfox"
 
 themes {
-    gruvbox-light {
-        fg 60 56 54
-        bg 251 82 75
-        black 40 40 40
-        red 205 75 69
-        green 152 151 26
-        yellow 215 153 33
-        blue 69 133 136
-        magenta 177 98 134
-        cyan 104 157 106
-        white 213 196 161
-        orange 214 93 14
-    }
-    gruvbox-dark {
-        fg 213 196 161
-        bg 40 40 40
-        black 60 56 54
-        red 204 36 29
-        green 152 151 26
-        yellow 215 153 33
-        blue 69 133 136
-        magenta 177 98 134
-        cyan 104 157 106
-        white 251 241 199
-        orange 214 93 14
-    }
+  dayfox {
+    bg "#f6f2ee"
+    fg "#3d2b5a"
+    red "#a5222f"
+    green "#396847"
+    blue "#2848a9"
+    yellow "#ac5402"
+    magenta "#6e33ce"
+    orange "#955f61"
+    cyan "#287980"
+    black "#d3c7bb"
+    white "#643f61"
+  }
+  nightfox {
+    bg "#192330"
+    fg "#cdcecf"
+    red "#c94f6d"
+    green "#81b29a"
+    blue "#719cd6"
+    yellow "#dbc074"
+    magenta "#9d79d6"
+    orange "#f4a261"
+    cyan "#63cdcf"
+    black "#29394f"
+    white "#aeafb0"
+  }
+  terafox {
+    bg "#152528"
+    fg "#e6eaea"
+    red "#e85c51"
+    green "#7aa4a1"
+    blue "#5a93aa"
+    yellow "#fda47f"
+    magenta "#ad5c7c"
+    orange "#ff8349"
+    cyan "#a1cdd8"
+    black "#254147"
+    white "#cbd9d8"
+  }
 }
 
 keybinds {
